@@ -24,13 +24,13 @@ Now you can access the webpage frontend through *localhost:3000*.
 ### 4. Start the mobile frontend
 > **Note:** make sure you've intalled the react-native environment and Android Studio on your PC. <br>Refer to: https://dev-yakuza.posstree.com/en/react-native/install-on-mac/ <br>or https://dev-yakuza.posstree.com/en/react-native/install-on-windows/
 
-(1)The android version in this project is Android 10.<br><br>
-(2)Copy *App.js* and *package.json* then replace the same files in your react_native project. <br><br>
-(3)Open the terminal at the location of your project. Install JS packages.
+(1) The android version in this project is Android 10.<br><br>
+(2) Copy *App.js* and *package.json* then replace the same files in your react_native project. <br><br>
+(3) Open the terminal at the location of your project. Install JS packages.
 ```
 npm install
 ```
-(4)Run the app.
+(4) Run the app.
 ```
 npm run android
 ```
