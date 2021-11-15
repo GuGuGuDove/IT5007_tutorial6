@@ -30,10 +30,22 @@ Now you can access the webpage frontend through *localhost:3000*.
 ```
 npm install
 ```
+ERROR may occur here. If so, try:
+```
+npm install --force
+npm audit --force
+```
+
 (4) Run the app.
 ```
 npm run android
 ```
+ERROR? try:
+```
+npx react-native run-android
+```
+
+As far as I know and experience, react-native got so many strange bugs that can drive you crazy and even speak F words(I did). If error occurs, try reinstall react-native CLI and if it still cannot work, please contact me at e0572684@u.nus.edu. 
 <br>
 
 ---
