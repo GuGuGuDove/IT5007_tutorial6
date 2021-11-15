@@ -33,8 +33,8 @@ npm install
 ERROR may occur here. If so, try:
 ```
 npm install --force
-npm audit fix --force
 ```
+DO **NOT** run *npm audit fix --force* ！This command will force react-native to rollback to older version, change contents in *package.josn* and crash the app. Never do this! You can always check *package.josn* to see if react-native version is **^0.66.2**.
 
 (4) Run the app.
 ```
@@ -45,7 +45,7 @@ ERROR? try:
 npx react-native run-android
 ```
 
-As far as I know and experience, react-native got so many strange bugs that can drive you crazy and even speak F words(I did). If error occurs, try reinstall react-native CLI and if it still cannot work, please contact me at e0572684@u.nus.edu. 
+As far as I know and experience, react-native got so many strange bugs that can drive you crazy and even speak F words(I did). If error occurs, try reinstall all node packages and react-native CLI. Keep in mind the react-native version should be **^0.66.2**!  if it still cannot work, please contact me at e0572684@u.nus.edu. 
 <br>
 
 ---
