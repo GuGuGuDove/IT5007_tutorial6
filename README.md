@@ -35,7 +35,8 @@ npm install
 npm run android
 ```
 <br>
------------
+
+---
 At last, If you want, the MongoDB CRUD test script can be found and executed by:
 ```
 cd backend_server_db
