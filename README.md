@@ -33,7 +33,7 @@ npm install
 ERROR may occur here. If so, try:
 ```
 npm install --force
-npm audit --force
+npm audit fix --force
 ```
 
 (4) Run the app.
